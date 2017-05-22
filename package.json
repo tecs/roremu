@@ -1,0 +1,32 @@
+{
+  "name": "roremu",
+  "version": "1.0.0",
+  "description": "A \"lorem ipsum\" generator transliterated in Japanese",
+  "main": "roremu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecs/roremu.git"
+  },
+  "keywords": [
+    "lorem",
+    "ipsum",
+    "lipsum",
+    "roremu",
+    "ippusumu",
+    "rippusumu"
+  ],
+  "author": "Alexander Ivanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tecs/roremu/issues"
+  },
+  "homepage": "https://github.com/tecs/roremu#readme",
+  "dependencies": {
+    "lorem-ipsum": "^1.0.4",
+    "romaji": "^0.2.21"
+  }
+}
